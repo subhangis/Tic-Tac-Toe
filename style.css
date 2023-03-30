@@ -7,8 +7,8 @@ body {
   background-color: aquamarine;
 }
 nav {
-  background-color: rgb(37, 9, 37);
-  color: white;
+  background-color: white;
+  color:black;
   height: 65px;
   font-size: 27px;
   display: flex;
@@ -19,6 +19,12 @@ nav {
 
 nav ul {
   list-style-type: none;
+}
+
+.logo{
+    height: 60px;
+    width: 70px;
+    margin: 20px;
 }
 
 .gamecontainer {
@@ -47,7 +53,7 @@ nav ul {
 }
 
 .box:hover {
-  background-color: rgb(117, 56, 178);
+  background-color: rgb(56, 178, 137);
 }
 
 .info {
